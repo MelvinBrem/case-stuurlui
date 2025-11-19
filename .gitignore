@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+!package.json
+!vite.config.js
+
+!/wp-content
+!/wp-content/themes
+!/wp-content/themes/stuurlui-theme
+!/wp-content/themes/stuurlui-theme/**
+
+/wp-content/themes/stuurlui-theme/dist
+/wp-content/themes/stuurlui-theme/dist/**
