@@ -1,0 +1,24 @@
+{
+  "name": "stuurlui/struurlui-theme",
+  "type": "project",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stuurlui\\StruurluiTheme\\": "wp-content/themes/stuurlui-theme/lib"
+    }
+  },
+  "authors": [
+    {
+      "name": "MelvinBrem",
+      "email": "melvinbrem@live.com"
+    }
+  ],
+  "require-dev": {
+    "symfony/var-dumper": "^7.3"
+  },
+  "config": {
+    "allow-plugins": {}
+  }
+}
