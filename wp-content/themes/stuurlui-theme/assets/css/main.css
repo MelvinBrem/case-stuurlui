@@ -1,5 +1,10 @@
-@import "./_tailwind.css";
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+@import 'swiper/css/autoplay';
 
-body {
-  @apply bg-lorem-ipsum;
-}
+@import './_theme.css';
+
+@import './_typography.css';
+@import './_layout.css';
+@import './_swiper.css';

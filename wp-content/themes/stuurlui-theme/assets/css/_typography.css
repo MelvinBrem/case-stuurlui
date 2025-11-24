@@ -1,0 +1,64 @@
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6 {
+  @apply font-playfair font-extrabold leading-none;
+}
+
+h1,
+.h1 {
+  @apply text-3xl md:text-7xl;
+}
+
+h2,
+.h2 {
+  @apply text-xl md:text-2xl;
+}
+
+h3,
+.h3 {
+  @apply text-md md:text-lg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+textarea,
+blockquote,
+table {
+  @apply mb-4;
+}
+
+ul,
+ol {
+  @apply list-inside pl-4;
+}
+
+ul li {
+  @apply list-disc;
+}
+
+ol li {
+  @apply list-decimal;
+}
+
+.richtext > *:first-child {
+  @apply mt-0;
+}
+
+.richtext > *:last-child {
+  @apply mb-0;
+}

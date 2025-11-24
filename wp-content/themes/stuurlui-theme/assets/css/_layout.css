@@ -1,0 +1,7 @@
+body {
+  @apply bg-secondary text-primary font-outfit text-base font-light;
+}
+
+.container {
+  @apply mx-auto max-w-300 px-5;
+}

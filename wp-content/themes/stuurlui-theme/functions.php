@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-if (!defined('ABSPATH')) exit;
+if (!defined('ABSPATH')) exit;  // Exit if accessed directly
 
 if (!file_exists(ABSPATH . '/vendor/autoload.php')) {
 	wp_die('Composer autoload.php not found, Have you run `composer install`?');
@@ -32,3 +32,8 @@ require_once ABSPATH . '/vendor/autoload.php';
 		}
 	}
 })();
+
+add_action('after_setup_theme', function () {
+	add_theme_support('post-thumbnails');
+	add_theme_support('title-tag');
+});

@@ -1,0 +1,11 @@
+.swiper-pagination {
+  @apply static flex items-start gap-1 mt-5;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-primary/50 transition-all duration-300;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary w-10 rounded-[9999px];
+}
