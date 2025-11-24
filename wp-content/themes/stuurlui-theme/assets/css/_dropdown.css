@@ -1,0 +1,23 @@
+.dropdown .dropdown__content {
+  @apply max-h-0 overflow-hidden transition-all duration-300;
+}
+
+.dropdown[data-dropdown-open='true'] .dropdown__content {
+  @apply max-h-96;
+}
+
+.dropdown__title .fa-plus {
+  @apply block;
+}
+
+.dropdown__title .fa-minus {
+  @apply hidden;
+}
+
+.dropdown[data-dropdown-open='true'] .dropdown__title .fa-plus {
+  @apply hidden;
+}
+
+.dropdown[data-dropdown-open='true'] .dropdown__title .fa-minus {
+  @apply block;
+}
