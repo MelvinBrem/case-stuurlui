@@ -33,7 +33,9 @@ require_once ABSPATH . '/vendor/autoload.php';
 	}
 })();
 
-add_action('after_setup_theme', function () {
+function str_add_theme_support()
+{
 	add_theme_support('post-thumbnails');
 	add_theme_support('title-tag');
-});
+}
+add_action('after_setup_theme', 'str_add_theme_support');

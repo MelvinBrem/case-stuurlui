@@ -1,12 +1,12 @@
 {
-  "name": "stuurlui/struurlui-theme",
+  "name": "stuurlui/stuurlui-theme",
   "type": "project",
   "require": {
     "php": ">=8.2"
   },
   "autoload": {
     "psr-4": {
-      "Stuurlui\\StruurluiTheme\\": "wp-content/themes/stuurlui-theme/lib"
+      "Stuurlui\\StuurluiTheme\\": "wp-content/themes/stuurlui-theme/lib"
     }
   },
   "authors": [

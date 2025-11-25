@@ -23,6 +23,12 @@ if (function_exists('acf_register_block_type') && function_exists('acf_add_local
     'title' => __('Dropdown grid', 'stuurlui-theme'),
     'fields' => [
       [
+        'key' => 'field_' . $blockSlug . '_tab_content',
+        'name' => 'content',
+        'label' => __('Dropdown grid instellingen', 'stuurlui-theme'),
+        'type' => 'tab',
+      ],
+      [
         'key' => 'field_' . $blockSlug . '_title',
         'name' => 'title',
         'label' => __('Titel', 'stuurlui-theme'),

@@ -3,7 +3,7 @@
 }
 
 .dropdown[data-dropdown-open='true'] .dropdown__content {
-  @apply max-h-96;
+  @apply max-h-100 overflow-y-scroll;
 }
 
 .dropdown__title .fa-plus {

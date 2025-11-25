@@ -25,7 +25,7 @@ if (function_exists('acf_register_block_type') && function_exists('acf_add_local
       [
         'key' => 'field_' . $blockSlug . '_tab_content',
         'name' => 'content',
-        'label' => __('Inhoud', 'stuurlui-theme'),
+        'label' => __('Inhoud instellingen', 'stuurlui-theme'),
         'type' => 'tab',
       ],
       [
@@ -65,7 +65,7 @@ if (function_exists('acf_register_block_type') && function_exists('acf_add_local
       [
         'key' => 'field_' . $blockSlug . '_tab_slider',
         'name' => 'slider',
-        'label' => __('Slider', 'stuurlui-theme'),
+        'label' => __('Slider instellingen', 'stuurlui-theme'),
         'type' => 'tab',
       ],
       [

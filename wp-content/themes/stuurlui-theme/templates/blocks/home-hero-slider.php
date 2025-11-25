@@ -18,15 +18,14 @@
           <div class="pt-5 mt-5 md:pt-10 md:mt-10 border-t border-primary/20 flex flex-row gap-4">
             <?php foreach (get_field('awards') as $award):
               if (!$award['image']) continue;
-              $image = wp_get_attachment_image($award['image'], 'small');
             ?>
               <?php if ($award['link'] && $award['link']['url']): ?>
                 <a href="<?= $award['link']['url']; ?>" target="<?= $award['link']['target'] ?? '_self'; ?>" aria-label="<?= $award['link']['title'] ?? ''; ?>" class="relative transition-all bottom-0 duration-300 hover:bottom-1 flex-2 flex items-center justify-center">
-                  <?= $image; ?>
+                  <?= wp_get_attachment_image($award['image'], 'small'); ?>
                 </a>
               <?php else: ?>
                 <div class="flex-1 flex items-center justify-center">
-                  <?= $image; ?>
+                  <?= wp_get_attachment_image($award['image'], 'small'); ?>
                 </div>
               <?php endif; ?>
             <?php endforeach; ?>

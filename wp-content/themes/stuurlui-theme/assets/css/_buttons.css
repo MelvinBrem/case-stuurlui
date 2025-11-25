@@ -1,0 +1,7 @@
+.btn {
+  @apply inline-block font-outfit py-3 px-7 border rounded-[999px] transition-all duration-200;
+}
+
+.btn--outline {
+  @apply bg-secondary border-primary hover:bg-primary hover:text-white;
+}
