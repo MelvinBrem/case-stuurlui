@@ -22,7 +22,7 @@ function str_register_post_types()
     ],
     'menu_icon' => 'dashicons-format-aside',
     'public' => true,
-    'has_archive' => true,
+    'has_archive' => false,
     'rewrite' => ['slug' => 'blog'],
     'supports' => ['title', 'editor', 'thumbnail'],
     'show_in_rest' => true,

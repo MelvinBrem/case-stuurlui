@@ -12,7 +12,7 @@ $categories = get_the_terms(get_the_ID(), 'news-category');
       <?php endif; ?>
     </div>
     <div class="flex p-6 gap-6 flex-col">
-      <div class="flex gap-2">
+      <div class="flex flex-wrap gap-2">
         <span class="py-1 px-2 text-sm border border-primary/75 rounded-sm"><?= get_the_date('j F Y'); ?></span>
         <?php if ($categories) : ?>
           <?php foreach ($categories as $category) : ?>

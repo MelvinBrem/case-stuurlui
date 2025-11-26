@@ -1,0 +1,17 @@
+ul.page-numbers {
+  @apply flex gap-2 list-none mx-0 p-0 mb-0 justify-center items-center flex-wrap;
+}
+
+ul.page-numbers li {
+  @apply list-none;
+}
+
+ul.page-numbers li a,
+ul.page-numbers li span {
+  @apply bg-white py-2 px-4 rounded-[999px];
+}
+
+ul.page-numbers li a:hover,
+ul.page-numbers li span {
+  @apply bg-primary text-white transition-all duration-200;
+}
