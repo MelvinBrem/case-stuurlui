@@ -2,8 +2,12 @@
 
 !.gitignore
 !composer.json
+!composer.lock
 !package.json
+!package-lock.json
+!.prettierignore
 !vite.config.js
+!readme.md
 
 !.prettierrc
 
